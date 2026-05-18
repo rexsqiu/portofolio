@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio | M. Sidik Aljabar</title>
+    <!-- Menggunakan Tailwind CSS untuk desain modern -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Google -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Poppins', sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- 1. NAVBAR -->
+    <nav class="sticky top-0 z-50 bg-white/80 backdrop-blur-md shadow-sm">
+        <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-xl font-bold text-blue-600">M. Sidik A.</a>
+            <div class="space-x-6 text-sm font-medium">
+                <a href="#tentang" class="hover:text-blue-600 transition">Tentang</a>
+                <a href="#proyek" class="hover:text-blue-600 transition">Proyek</a>
+                <a href="#penghargaan" class="hover:text-blue-600 transition">Penghargaan</a>
+                <a href="#kontak" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">Kontak</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 2. HERO SECTION -->
+    <header class="max-w-5xl mx-auto px-6 py-20 flex flex-col md:flex-row items-center justify-between gap-10">
+        <div class="max-w-xl">
+            <span class="text-blue-600 font-semibold tracking-wide uppercase text-sm">Halo, Saya</span>
+            <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mt-2 mb-4">M. Sidik Aljabar</h1>
+            <p class="text-lg text-gray-600 leading-relaxed mb-6">
+                Lulusan Teknik Otomasi Industri & <span class="text-blue-600 font-medium">Maintenance Engineering</span> dengan ketertarikan kuat pada bidang <span class="text-blue-600 font-medium">Software Engineering</span>.
+            </p>
+            <div class="flex gap-4">
+                <a href="#proyek" class="bg-blue-600 text-white px-6 py-3 rounded-xl font-medium shadow-lg shadow-blue-600/20 hover:bg-blue-700 transition">Lihat Proyek</a>
+                <a href="#kontak" class="border border-gray-300 bg-white text-gray-700 px-6 py-3 rounded-xl font-medium hover:bg-gray-50 transition">Hubungi Saya</a>
+            </div>
+        </div>
+        <!-- Placeholder Foto (Bisa kamu ganti dengan link fotomu) -->
+        <div class="w-64 h-64 bg-gradient-to-tr from-blue-600 to-indigo-500 rounded-2xl shadow-xl transform rotate-3 hover:rotate-0 transition duration-300 flex items-center justify-center text-white font-semibold">
+            [ Foto Sidik ]
+        </div>
+    </header>
+
+    <!-- 3. TENTANG SAYA -->
+    <section id="tentang" class="bg-white py-20 border-t border-b border-gray-100">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold text-gray-900 mb-6">Tentang Saya</h2>
+            <p class="text-gray-600 leading-relaxed max-w-2xl mx-auto mb-8">
+                Saya lulusan SMKN 1 Plered jurusan Teknik Otomasi Industri (2026). Memiliki pengalaman PKL selama 4 bulan di Grand Tjokro Premiere Bandung bagian maintenance engineering. Terbiasa bekerja disiplin, menguasai Microsoft Office & Excel, serta memiliki semangat belajar tinggi untuk menjembatani sistem fisik (Otomasi) dengan perangkat lunak (Software).
+            </p>
+            <!-- Skills Tags -->
+            <div class="flex flex-wrap justify-center gap-3">
+                <span class="bg-blue-50 text-blue-700 px-4 py-1.5 rounded-full text-sm font-medium">Troubleshooting</span>
+                <span class="bg-blue-50 text-blue-700 px-4 py-1.5 rounded-full text-sm font-medium">Preventive Maintenance</span>
+                <span class="bg-blue-50 text-blue-700 px-4 py-1.5 rounded-full text-sm font-medium">Teknik Otomasi</span>
+                <span class="bg-blue-50 text-blue-700 px-4 py-1.5 rounded-full text-sm font-medium">Microsoft Excel & Office</span>
+                <span class="bg-blue-50 text-blue-700 px-4 py-1.5 rounded-full text-sm font-medium">Logika Pemrograman (Tech Enthusiast)</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. PENGALAMAN & PROYEK -->
+    <section id="proyek" class="max-w-5xl mx-auto px-6 py-20">
+        <h2 class="text-3xl font-bold text-gray-900 mb-2 text-center">Pengalaman & Proyek</h2>
+        <p class="text-gray-500 text-center mb-12">Kontribusi nyata yang pernah saya lakukan</p>
+        
+        <div class="grid md:grid-cols-2 gap-8">
+            <!-- Card 1: Maintenance Grand Tjokro -->
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                <span class="text-xs font-bold uppercase tracking-wider text-blue-600 bg-blue-50 px-3 py-1 rounded-full">PKL - 4 Bulan</span>
+                <h3 class="text-xl font-bold mt-4 mb-1 text-gray-900">Maintenance Room Meeting & Panggung</h3>
+                <p class="text-sm text-gray-500 mb-4">Grand Tjokro Premiere Bandung Hotel</p>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    Bertanggung jawab mengoptimalkan fasilitas panggung dan ruang pertemuan untuk kelancaran event. Melakukan pemeriksaan kelistrikan, sistem kontrol mekanik, serta perbaikan cepat (troubleshooting) saat terjadi kendala teknis.
+                </p>
+            </div>
+
+            <!-- Card 2: Proyek Otomasi & Software Interest -->
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                <span class="text-xs font-bold uppercase tracking-wider text-indigo-600 bg-indigo-50 px-3 py-1 rounded-full">Akademik & Minat</span>
+                <h3 class="text-xl font-bold mt-4 mb-1 text-gray-900">Sistem Kontrol & Logika Pemrograman</h3>
+                <p class="text-sm text-gray-500 mb-4">SMKN 1 Plered / Mandiri</p>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    Mempelajari dasar pemrograman logika industri (PLC/Otomasi) yang menjadi fondasi kuat beralih ke rekayasa perangkat lunak (Software Engineering). Aktif mempelajari algoritma dasar demi meningkatkan skill teknis digital.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. PENGHARGAAN -->
+    <section id="penghargaan" class="bg-blue-600 text-white py-20">
+        <div class="max-w-5xl mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">Penghargaan & Pencapaian</h2>
+            <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                
+                <div class="bg-white/10 backdrop-blur-sm p-6 rounded-xl flex items-start gap-4">
+                    <span class="text-3xl">🏆</span>
+                    <div>
+                        <h3 class="font-bold text-lg">Best Trainee (2023)</h3>
+                        <p class="text-blue-100 text-sm mt-1">Diberikan oleh Grand Tjokro Premiere Bandung Hotel atas performa kerja luar biasa selama masa PKL.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white/10 backdrop-blur-sm p-6 rounded-xl flex items-start gap-4">
+                    <span class="text-3xl">🌟</span>
+                    <div>
+                        <h3 class="font-bold text-lg">Siswa Terajin (Angkatan 2023 - 2026)</h3>
+                        <p class="text-blue-100 text-sm mt-1">Penghargaan dari SMKN 1 Plered atas dedikasi, kedisiplinan tinggi, dan kehadiran terbaik.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. KONTAK -->
+    <section id="kontak" class="max-w-3xl mx-auto px-6 py-20 text-center">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">Mari Bekerja Sama</h2>
+        <p class="text-gray-600 mb-10">Saya siap untuk tantangan baru di bidang teknis, maintenance, maupun tim IT/Software.</p>
+        
+        <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
+            <a href="https://wa.me/6285797009808" target="_blank" class="w-full sm:w-auto bg-green-500 text-white px-6 py-3 rounded-xl font-medium shadow-md hover:bg-green-600 transition flex items-center justify-center gap-2">
+                💬 WhatsApp (085797009808)
+            </a>
+            <a href="mailto:sidikanakbaik@gmail.com" class="w-full sm:w-auto bg-gray-900 text-white px-6 py-3 rounded-xl font-medium shadow-md hover:bg-gray-800 transition flex items-center justify-center gap-2">
+                📧 Email Sidik
+            </a>
+            <a href="https://instagram.com/msidiikkk" target="_blank" class="w-full sm:w-auto bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-3 rounded-xl font-medium shadow-md hover:opacity-90 transition flex items-center justify-center gap-2">
+                📸 Instagram @msidiikkk
+            </a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-gray-900 text-gray-500 text-sm text-center py-6 border-t border-gray-800">
+        <p>&copy; 2026 M. Sidik Aljabar. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
