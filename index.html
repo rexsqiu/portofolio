@@ -12,7 +12,7 @@
     <style>
         body { font-family: 'Plus Jakarta Sans', sans-serif; }
         
-        /* Efek Ketikan Otomatis */
+        /* Efek Ketikan Otomatis pada Hero Section */
         @keyframes typing { from { width: 0 } to { width: 100% } }
         @keyframes blink { from, to { border-color: transparent } 50% { border-color: #22d3ee; } }
         .typewriter-text {
@@ -20,7 +20,7 @@
             overflow: hidden;
             border-right: 3px solid #22d3ee;
             white-space: nowrap;
-            animation: typing 3.5s steps(20, end) infinite alternate, blink .75s step-end infinite;
+            animation: typing 3.5s steps(22, end) infinite alternate, blink .75s step-end infinite;
         }
 
         /* Animasi Navigasi Meluncur Turun */
@@ -66,20 +66,23 @@
             </div>
             
             <div class="space-y-4">
+                <span class="text-blue-400 font-semibold tracking-wide uppercase text-sm block" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">Halo, Saya</span>
                 <h1 class="text-4xl sm:text-5xl md:text-6xl font-black tracking-tight leading-tight text-white" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
-                    Membangun Solusi <br>
-                    <span class="typewriter-text bg-gradient-to-r from-cyan-400 via-teal-400 to-blue-500 bg-clip-text text-transparent pb-2">Digital & Kreatif</span>
+                    M. Sidik Aljabar<br>
+                    <span class="typewriter-text bg-gradient-to-r from-cyan-400 via-teal-400 to-blue-500 bg-clip-text text-transparent pb-2 text-3xl sm:text-4xl md:text-5xl">Automation & Editor</span>
                 </h1>
-                <p class="text-xl font-bold text-slate-400" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">M. Sidik Aljabar</p>
             </div>
             
-            <p class="text-base sm:text-lg text-slate-400 leading-relaxed max-w-xl mx-auto lg:mx-0 font-light" data-aos="fade-up" data-aos-duration="800" data-aos-delay="600">
-                Lulusan <span class="text-cyan-400 font-medium">Teknik Otomasi Industri</span> yang adaptif, memadukan ketelitian logika sistem kontrol mekanis dengan kreativitas modern sebagai <span class="text-blue-400 font-medium">Content Editor</span> dan pengembang aset media digital terstruktur.
+            <p class="text-base sm:text-lg text-slate-400 leading-relaxed max-w-xl mx-auto lg:mx-0 font-light" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
+                Lulusan <span class="text-cyan-400 font-medium">Teknik Otomasi Industri</span> dengan ketertarikan kuat pada bidang <span class="text-blue-400 font-medium">Maintenance Engineering</span> serta pengembangan kreativitas media digital yang adaptif dan terstruktur.
             </p>
             
-            <div class="flex flex-wrap justify-center lg:justify-start gap-4 pt-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="800">
-                <a href="#proyek" class="px-8 py-4 rounded-xl bg-slate-900 border border-slate-800 text-white font-bold transition-all duration-300 hover:border-cyan-400 flex items-center gap-3 transform hover:scale-105">
-                    Eksplorasi Karya <i class="fa-solid fa-arrow-down text-xs text-cyan-400 animate-bounce"></i>
+            <div class="flex flex-wrap justify-center lg:justify-start gap-4 pt-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="500">
+                <a href="#proyek" class="px-6 py-3 rounded-xl bg-gradient-to-r from-cyan-400 to-blue-600 text-slate-950 font-medium shadow-lg shadow-blue-600/20 hover:scale-105 transition-all duration-300">
+                    Lihat Proyek
+                </a>
+                <a href="#kontak" class="px-6 py-3 rounded-xl border border-slate-700 hover:border-cyan-400 text-slate-300 font-medium hover:scale-105 transition-all duration-300">
+                    Hubungi Saya
                 </a>
             </div>
         </div>
@@ -94,27 +97,6 @@
         </div>
     </header>
 
-    <section class="max-w-5xl mx-auto px-6 pb-24" data-aos="fade-up" data-aos-duration="800">
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-6 p-8 rounded-3xl bg-slate-900/40 border border-slate-800/80 shadow-xl">
-            <div class="text-center space-y-1 border-r border-slate-800/80">
-                <div class="text-3xl md:text-4xl font-extrabold text-cyan-400">Otomasi</div>
-                <div class="text-xs font-semibold uppercase tracking-wider text-slate-500">Background Logika</div>
-            </div>
-            <div class="text-center space-y-1 md:border-r border-slate-800/80">
-                <div class="text-3xl md:text-4xl font-extrabold text-teal-400">Editor</div>
-                <div class="text-xs font-semibold uppercase tracking-wider text-slate-500">Digital Creative</div>
-            </div>
-            <div class="text-center space-y-1 border-r border-slate-800/80">
-                <div class="text-3xl md:text-4xl font-extrabold text-blue-400">Detail</div>
-                <div class="text-xs font-semibold uppercase tracking-wider text-slate-500">Analisis Presisi</div>
-            </div>
-            <div class="text-center space-y-1">
-                <div class="text-3xl md:text-4xl font-extrabold text-purple-400">Adaptif</div>
-                <div class="text-xs font-semibold uppercase tracking-wider text-slate-500">Ekosistem Kerja</div>
-            </div>
-        </div>
-    </section>
-
     <section id="tentang" class="bg-slate-950/40 border-y border-slate-900 py-32 overflow-hidden">
         <div class="max-w-5xl mx-auto px-6 grid md:grid-cols-12 gap-12 items-center">
             <div class="md:col-span-5 space-y-4" data-aos="fade-up" data-aos-duration="800">
@@ -125,10 +107,10 @@
             </div>
             <div class="md:col-span-7 space-y-6 text-slate-400 font-light leading-relaxed text-base sm:text-lg" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">
                 <p>
-                    Perjalanan saya diawali dari kedisiplinan ilmu Teknik Otomasi Industri di <strong>SMK Negeri 1 Cirebon</strong>. Pengalaman ini membentuk pola pikir saya menjadi sangat terstruktur, analitis, dan mengutamakan ketepatan saat memecahkan masalah operasional sistem kelistrikan maupun instrumentasi pabrik.
+                    Saya adalah lulusan *SMKN 1 Plered* jurusan *Teknik Otomasi Industri (2026). Memiliki pengalaman Praktek Kerja Lapangan (PKL) selama 4 bulan di **Grand Tjokro Premiere Bandung* pada bagian Maintenance Engineering.
                 </p>
                 <p>
-                    Ketertarikan kuat pada dunia digital mendorong saya mengekspansi kemampuan ke ranah rekayasa visual sebagai <strong>Content Editor</strong> serta pengembangan web dasar. Saya mahir mengintegrasikan alat penyuntingan multimedia modern seperti <em>Canva</em> dan <em>CapCut</em> demi menghasilkan produk komunikasi media yang kreatif, rapi, dan mampu menjawab kebutuhan pasar digital secara efektif.
+                    Selain berfokus pada sistem kontrol otomasi industri, kelistrikan, dan pemeliharaan mesin, saya juga aktif mengembangkan minat di industri kreatif digital dengan menguasai tools multimedia modern untuk menghasilkan luaran kerja yang presisi dan inovatif.
                 </p>
             </div>
         </div>
@@ -141,28 +123,32 @@
         </div>
 
         <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div class="p-8 rounded-2xl bg-slate-900/40 border border-slate-800/80 transition-all duration-300 hover:border-cyan-400/50 group hover:-translate-y-2 shadow-xl hover:shadow-cyan-500/5" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="100">
+            <div class="p-8 rounded-2xl bg-slate-900/40 border border-slate-800/80 transition-all duration-300 hover:border-cyan-400/50 group hover:-translate-y-2 shadow-xl" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="100">
                 <div class="w-12 h-12 rounded-xl bg-cyan-500/10 flex items-center justify-center text-cyan-400 mb-6 group-hover:bg-cyan-400 group-hover:text-black transition-all duration-300">
-                    <i class="fa-solid fa-photo-film text-xl"></i>
+                    <i class="fa-solid fa-screwdriver-wrench text-xl"></i>
                 </div>
-                <h3 class="text-lg font-bold text-white mb-2">Content Editing</h3>
-                <p class="text-slate-400 text-sm leading-relaxed font-light">Melakukan penyuntingan klip video digital, penataan alur aset gambar grafis, serta perencanaan konten menggunakan aplikasi <strong>CapCut</strong> dan <strong>Canva</strong>.</p>
+                <h3 class="text-lg font-bold text-white mb-2">Maintenance Engineering</h3>
+                <p class="text-slate-400 text-sm leading-relaxed font-light">Berpengalaman menangani perawatan preventif operasional utilitas gedung, sistem kelistrikan, serta inspeksi panel kontrol utama.</p>
+                <div class="flex flex-wrap gap-2 mt-4">
+                    <span class="text-[11px] bg-blue-950/60 text-blue-400 font-medium px-2.5 py-1 rounded-full border border-blue-900/50">Troubleshooting</span>
+                    <span class="text-[11px] bg-blue-950/60 text-blue-400 font-medium px-2.5 py-1 rounded-full border border-blue-900/50">Preventive Maintenance</span>
+                </div>
             </div>
 
-            <div class="p-8 rounded-2xl bg-slate-900/40 border border-slate-800/80 transition-all duration-300 hover:border-blue-500/50 group hover:-translate-y-2 shadow-xl hover:shadow-blue-500/5" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="200">
+            <div class="p-8 rounded-2xl bg-slate-900/40 border border-slate-800/80 transition-all duration-300 hover:border-blue-500/50 group hover:-translate-y-2 shadow-xl" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="200">
                 <div class="w-12 h-12 rounded-xl bg-blue-500/10 flex items-center justify-center text-blue-400 mb-6 group-hover:bg-blue-500 group-hover:text-black transition-all duration-300">
                     <i class="fa-solid fa-microchip text-xl"></i>
                 </div>
                 <h3 class="text-lg font-bold text-white mb-2">Otomasi Industri</h3>
-                <p class="text-slate-400 text-sm leading-relaxed font-light">Analisis gambar diagram kabel kelistrikan (wiring diagrams), kalibrasi instrumen sirkuit kontrol, serta pengoperasian sistem monitoring digital DCS.</p>
+                <p class="text-slate-400 text-sm leading-relaxed font-light">Penyusunan logika kontrol dasar, analisis gambar diagram sirkuit kelistrikan industri, dan penataan komponen elektrikal.</p>
             </div>
 
-            <div class="p-8 rounded-2xl bg-slate-900/40 border border-slate-800/80 transition-all duration-300 hover:border-purple-500/50 group hover:-translate-y-2 shadow-xl hover:shadow-purple-500/5" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="300">
+            <div class="p-8 rounded-2xl bg-slate-900/40 border border-slate-800/80 transition-all duration-300 hover:border-purple-500/50 group hover:-translate-y-2 shadow-xl" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="300">
                 <div class="w-12 h-12 rounded-xl bg-purple-500/10 flex items-center justify-center text-purple-400 mb-6 group-hover:bg-purple-500 group-hover:text-black transition-all duration-300">
-                    <i class="fa-solid fa-file-invoice text-xl"></i>
+                    <i class="fa-solid fa-clapperboard text-xl"></i>
                 </div>
-                <h3 class="text-lg font-bold text-white mb-2">Administrasi Kantor</h3>
-                <p class="text-slate-400 text-sm leading-relaxed font-light">Penyusunan file laporan teknis operasional terintegrasi, korespondensi, dan kalkulasi data menggunakan ekosistem lengkap <strong>Microsoft Office</strong>.</p>
+                <h3 class="text-lg font-bold text-white mb-2">Creative & Content Tools</h3>
+                <p class="text-slate-400 text-sm leading-relaxed font-light">Penyusunan file dokumentasi kerja rapi via Office, tata letak desain media di Canva, serta pengeditan klip video kreatif di CapCut.</p>
             </div>
         </div>
     </section>
@@ -170,53 +156,38 @@
     <section id="pengalaman" class="bg-slate-950/20 border-y border-slate-900 py-32">
         <div class="max-w-4xl mx-auto px-6 space-y-20">
             <div class="text-center space-y-4" data-aos="fade-up" data-aos-duration="800">
-                <div class="text-cyan-400 font-bold text-sm tracking-wider uppercase">Riwayat Jejak Karir</div>
-                <h2 class="text-3xl md:text-4xl font-black text-white">Pengalaman & Pendidikan</h2>
+                <div class="text-cyan-400 font-bold text-sm tracking-wider uppercase">Riwayat Jejak Langkah</div>
+                <h2 class="text-3xl md:text-4xl font-black text-white">Pendidikan & Pengalaman Kerja</h2>
             </div>
 
             <div class="relative border-l border-slate-800 ml-4 md:ml-32 space-y-12">
                 
                 <div class="relative pl-8 group" data-aos="fade-up" data-aos-duration="1000">
                     <div class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-[#030712] border-2 border-purple-500 group-hover:bg-purple-500 transition-colors duration-300 shadow-md"></div>
-                    <div class="hidden md:block absolute -left-36 top-1 text-sm font-bold text-slate-500 text-right w-24">2021 - 2024</div>
-                    <div class="p-6 rounded-2xl bg-slate-900/40 backdrop-blur-xl border border-slate-800 hover:border-purple-500/30 transition-all duration-300 space-y-3 shadow-lg">
+                    <div class="hidden md:block absolute -left-36 top-1 text-sm font-bold text-slate-500 text-right w-24">2023 - 2026</div>
+                    <div class="p-6 rounded-2xl bg-slate-900/40 backdrop-blur-xl border border-slate-800 hover:border-purple-500/30 transition-all duration-300 space-y-2 shadow-lg">
                         <div class="flex flex-wrap items-center justify-between gap-2">
-                            <h3 class="text-xl font-bold text-white group-hover:text-purple-400 transition-colors duration-300">Pendidikan Vokasi Resmi</h3>
+                            <h3 class="text-xl font-bold text-white group-hover:text-purple-400 transition-colors duration-300">Pendidikan Vokasi</h3>
                             <span class="text-xs bg-slate-800 text-slate-300 px-3 py-1 rounded-full border border-slate-700">Akademik</span>
                         </div>
-                        <p class="text-sm font-semibold text-slate-400">SMK Negeri 1 Cirebon</p>
+                        <p class="text-sm font-semibold text-slate-400">SMKN 1 Plered</p>
                         <p class="text-slate-400 text-sm font-light leading-relaxed">
-                            Mengambil fokus spesialisasi pada <strong>Program Keahlian Teknik Otomasi Industri</strong>. Mempelajari logika kontrol kelistrikan, sistem pneumatik, PLC, serta pemrograman sirkuit kelistrikan industri terintegrasi.
+                            Mengambil fokus keahlian pada *Program Keahlian Teknik Otomasi Industri*. Mempelajari dasar kelistrikan sirkuit, instalasi perangkat kontrol, kendali PLC, serta sistem pneumatik pabrik.
                         </p>
                     </div>
                 </div>
 
                 <div class="relative pl-8 group" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
                     <div class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-[#030712] border-2 border-cyan-400 group-hover:bg-cyan-400 transition-colors duration-300 shadow-md"></div>
-                    <div class="hidden md:block absolute -left-36 top-1 text-sm font-bold text-slate-500 text-right w-24">2024</div>
-                    <div class="p-6 rounded-2xl bg-slate-900/40 backdrop-blur-xl border border-slate-800 hover:border-cyan-400/30 transition-all duration-300 space-y-3 shadow-lg">
+                    <div class="hidden md:block absolute -left-36 top-1 text-sm font-bold text-slate-500 text-right w-24">4 Bulan</div>
+                    <div class="p-6 rounded-2xl bg-slate-900/40 backdrop-blur-xl border border-slate-800 hover:border-cyan-400/30 transition-all duration-300 space-y-2 shadow-lg">
                         <div class="flex flex-wrap items-center justify-between gap-2">
-                            <h3 class="text-xl font-bold text-white group-hover:text-cyan-400 transition-colors duration-300">Operator Magang (Internship)</h3>
-                            <span class="text-xs bg-slate-800 text-slate-300 px-3 py-1 rounded-full border border-slate-700">PT Indonesia Power</span>
+                            <h3 class="text-xl font-bold text-white group-hover:text-cyan-400 transition-colors duration-300">Praktek Kerja Lapangan (PKL)</h3>
+                            <span class="text-xs bg-slate-800 text-slate-300 px-3 py-1 rounded-full border border-slate-700">Eksperimen Industri</span>
                         </div>
-                        <p class="text-sm font-semibold text-slate-400">Semarang PGU - Divisi Operasi & Pemeliharaan</p>
+                        <p class="text-sm font-semibold text-slate-400">Grand Tjokro Premiere Bandung</p>
                         <p class="text-slate-400 text-sm font-light leading-relaxed">
-                            Terlibat langsung dalam menganalisis ketepatan gambar wiring diagram sistem kontrol, melaksanakan kalibrasi instrumen sirkuit pengaman, serta mempelajari pemantauan unit pembangkit melalui kontrol layar sistem DCS (Distributed Control System).
-                        </p>
-                    </div>
-                </div>
-
-                <div class="relative pl-8 group" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-                    <div class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-[#030712] border-2 border-blue-400 group-hover:bg-blue-400 transition-colors duration-300 shadow-md"></div>
-                    <div class="hidden md:block absolute -left-36 top-1 text-sm font-bold text-slate-500 text-right w-24">2024</div>
-                    <div class="p-6 rounded-2xl bg-slate-900/40 backdrop-blur-xl border border-slate-800 hover:border-blue-400/30 transition-all duration-300 space-y-3 shadow-lg">
-                        <div class="flex flex-wrap items-center justify-between gap-2">
-                            <h3 class="text-xl font-bold text-white group-hover:text-blue-400 transition-colors duration-300">Praktek Kerja Lapangan (PKL)</h3>
-                            <span class="text-xs bg-slate-800 text-slate-300 px-3 py-1 rounded-full border border-slate-700">Grand Tjokro Hotel</span>
-                        </div>
-                        <p class="text-sm font-semibold text-slate-400">Divisi Maintenance Engineering</p>
-                        <p class="text-slate-400 text-sm font-light leading-relaxed">
-                            Membantu pengawasan sistem utilitas gedung utama, merawat fungsionalitas panel AC serta kelistrikan kamar secara berkala (preventive maintenance), dan siaga dalam penanganan operasional genset darurat gedung.
+                            Ditempatkan langsung pada bagian *Maintenance Engineering. Menjalankan tugas pengawasan rutin utilitas gedung utama, perawatan kelistrikan ruang/panel AC (*preventive maintenance), dan sigap dalam menangani masalah teknis di lapangan (troubleshooting).
                         </p>
                     </div>
                 </div>
@@ -227,19 +198,51 @@
 
     <section id="proyek" class="max-w-6xl mx-auto px-6 py-32 space-y-16">
         <div class="text-center space-y-4 max-w-xl mx-auto" data-aos="fade-up" data-aos-duration="800">
-            <div class="text-cyan-400 font-bold text-sm tracking-wider uppercase">Selected Showcases</div>
-            <h2 class="text-3xl md:text-4xl font-black text-white">Eksplorasi Ruang Karya</h2>
+            <div class="text-cyan-400 font-bold text-sm tracking-wider uppercase">Showcase Karya</div>
+            <h2 class="text-3xl md:text-4xl font-black text-white">Eksplorasi Ruang Project</h2>
         </div>
 
         <div class="grid md:grid-cols-2 gap-8">
             <div class="rounded-3xl bg-slate-900/60 border border-slate-800 overflow-hidden hover:scale-[1.01] transition-all duration-300 shadow-2xl flex flex-col justify-between group hover:border-cyan-400" data-aos="fade-right" data-aos-duration="1000">
                 <div class="p-8 sm:p-10 space-y-5">
-                    <span class="text-xs font-bold text-cyan-400 bg-cyan-500/10 px-3 py-1.5 rounded-lg border border-cyan-400/20 tracking-wider uppercase inline-block">Digital Media Production</span>
-                    <h3 class="text-2xl font-extrabold text-white group-hover:text-cyan-400 transition-colors duration-300">Creative Content Hub</h3>
+                    <span class="text-xs font-bold text-cyan-400 bg-cyan-500/10 px-3 py-1.5 rounded-lg border border-cyan-400/20 tracking-wider uppercase inline-block">Engineering Implementation</span>
+                    <h3 class="text-2xl font-extrabold text-white group-hover:text-cyan-400 transition-colors duration-300">Maintenance & Control Operations</h3>
                     <p class="text-slate-400 text-sm font-light leading-relaxed">
-                        Pengembangan dan pengeditan klip video kreatif serta aset media promosi visual yang rapi. Memprioritaskan keselarasan ritme transisi audio-video, tipografi yang seimbang, dan struktur penceritaan konten digital yang menarik audiens secara luas.
+                        Implementasi nyata ilmu instrumentasi teknik kelistrikan dan otomasi sirkuit kontrol. Mengatur ketepatan penanganan kerusakan komponen tak terduga serta mengoptimalkan skema perawatan preventif utilitas mekanikal-elektrikal secara berkala.
                     </p>
                 </div>
                 <div class="px-8 sm:px-10 pb-8 flex flex-wrap gap-2">
-                    <span class="text-xs bg-slate-950 text-slate-400 px-3 py-1.5 rounded-lg border border-slate-800 font-medium">CapCut Editor</span>
-                    <span class="text-xs bg-slate-950 text-slate-400 px-3 py-1.5 r
+                    <span class="text-xs bg-slate-950 text-slate-400 px-3 py-1.5 rounded-lg border border-slate-800 font-medium">Electrical Systems</span>
+                    <span class="text-xs bg-slate-950 text-slate-400 px-3 py-1.5 rounded-lg border border-slate-800 font-medium">Preventive Maintenance</span>
+                </div>
+            </div>
+
+            <div class="rounded-3xl bg-slate-900/60 border border-slate-800 overflow-hidden hover:scale-[1.01] transition-all duration-300 shadow-2xl flex flex-col justify-between group hover:border-blue-500" data-aos="fade-left" data-aos-duration="1000">
+                <div class="p-8 sm:p-10 space-y-5">
+                    <span class="text-xs font-bold text-blue-400 bg-blue-500/10 px-3 py-1.5 rounded-lg border border-blue-400/20 tracking-wider uppercase inline-block">Web Interface</span>
+                    <h3 class="text-2xl font-extrabold text-white group-hover:text-blue-500 transition-colors duration-300">Responsive Personal Website</h3>
+                    <p class="text-slate-400 text-sm font-light leading-relaxed">
+                        Penyusunan arsitektur halaman portofolio interaktif berbasis Tailwind CSS yang dirancang responsif penuh untuk semua ukuran layar perangkat digital. Menggunakan pustaka AOS guna menciptakan impresi navigasi visual yang dinamis.
+                    </p>
+                </div>
+                <div class="px-8 sm:px-10 pb-8 flex flex-wrap gap-2">
+                    <span class="text-xs bg-slate-950 text-slate-400 px-3 py-1.5 rounded-lg border border-slate-800 font-medium">HTML5 Structure</span>
+                    <span class="text-xs bg-slate-950 text-slate-400 px-3 py-1.5 rounded-lg border border-slate-800 font-medium">Tailwind CSS v3</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="kontak" class="max-w-4xl mx-auto px-6 py-32 text-center space-y-12" data-aos="fade-up" data-aos-duration="1000">
+        <div class="space-y-4 max-w-xl mx-auto">
+            <h2 class="text-3xl md:text-5xl font-black text-white tracking-tight">Mulai Kolaborasi Hebat</h2>
+            <p class="text-slate-400 font-light">Punya tawaran penempatan kerja, kemitraan proyek teknik, atau kolaborasi kreatif? Mari berdiskusi.</p>
+        </div>
+
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-6">
+            <a href="mailto:msidikaljabar@gmail.com" class="px-8 py-4 bg-gradient-to-r from-cyan-400 to-blue-500 rounded-xl text-slate-950 font-extrabold shadow-lg hover:scale-105 transition-all flex items-center gap-3">
+                <i class="fa-regular fa-envelope text-lg"></i> msidikaljabar@gmail.com
+            </a>
+            <div class="flex gap-4">
+                <a href="https://github.com/rexsqiu" target="_blank" class="w-14 h-14 rounded-xl bg-slate-900 border border-slate-800 text-slate-300 hover:text-cyan-400 flex items-center justify-center transition-all text-xl" title="GitHub">
+                    <i class="fa-brands fa-githu
